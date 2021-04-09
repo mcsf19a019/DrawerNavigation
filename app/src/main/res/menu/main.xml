@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Main">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/home"
+                    android:icon="@drawable/ic_baseline_amp_stories_24"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/account"
+                    android:icon="@drawable/ic_baseline_supervisor_account_24"
+                    android:title="Account" />
+                <item
+                    android:id="@+id/email"
+                    android:icon="@drawable/ic_baseline_mark_email_unread_24"
+                    android:title="Email" />
+                <item
+                    android:id="@+id/call"
+                    android:icon="@drawable/ic_baseline_wifi_calling_24"
+                    android:title="Call" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Help Section">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/support"
+                    android:icon="@drawable/ic_baseline_support_agent_24"
+                    android:title="Support" />
+                <item
+                    android:id="@+id/info"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="Info" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>
